@@ -31,6 +31,11 @@ Bootstrap
 ```
 JQuery
 
+### Contact Information
+```
+divinekagame@gmail.com
+```
+
 ### Copyright and License
 ```
 MIT copyright 2018

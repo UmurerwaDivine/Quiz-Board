@@ -16,19 +16,19 @@ var opt = 0;
    // }else{
 
    
-if (option == "Method") {
+if (option === "Method") {
     opt = opt + 10;
 };
-if (optionOne == "Division") {
+if (optionOne === "Division") {
     opt =opt+ 10;
 };
-if (optionTwo  == "literal") {
+if (optionTwo  === "literal") {
     opt = opt + 10;
 };
-if ( optionThree == "expressions") {
+if ( optionThree === "expressions") {
     opt = opt + 10;
 };
-if ( optionFour == "Based") {
+if ( optionFour === "Based") {
     opt = opt + 10;
 };
 document.getElementById("fifth-p").style.visibility = "visible";
