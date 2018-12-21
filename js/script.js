@@ -1,13 +1,23 @@
-function result(){
 
+    $(document).ready(function(){
+        $("#board").submit(function (event) {
+     
+    $('#output').text('');
+    event.preventDefault();
 
-var option = $("input:radio[name=option]:").val();
-var optionOne = $("input:radio[name=optionOne]:").val();
-var optionTwo = $("input:radio[name=optionTwo]:").val();
-var optionThree = $("input:radio[name=optionThree]:").val();
-var optionFour = $("input:radio[name=optionFour]:").val();
+var option = $("input:radio[name=option]:checked ").val();
+var optionOne = $("input:radio[name=optionOne]:checked").val();
+var optionTwo = $("input:radio[name=optionTwo]:checked").val();
+var optionThree = $("input:radio[name=optionThree]:checked").val();
+var optionFour = $("input:radio[name=optionFour]:checked").val();
 var opt = 0;
 
+if (answerOne === undefined || answerTwo === undefined || answerThree === undefined) {
+    $('#questionsIncomplete').text("Please Complete questions Before Submitting");
+
+    }else{
+
+   
 if (option == "Method") {
     opt = opt + 10;
 };
@@ -23,13 +33,14 @@ if ( optionThree == "expressions") {
 if ( optionFour == "Based") {
     opt = opt + 10;
 };
-
 }
 
-$(document).ready(function() {
-    $("form#board").submit(function(event) {
-    event.preventDefault();
-    $("#output").text(result);
-    });
-    });
-    
+ });
+});
+//document.getElementById("output").style.visibility = "visible";
+//document.getElementById("correct").innerHTML = "Your Total Marks " + opt + " /50";
+
+
+   // $(".container").fadeOut();
+
+
