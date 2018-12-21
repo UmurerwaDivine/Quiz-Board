@@ -1,5 +1,5 @@
 
-   /* function result(){
+function result(){
     
 
 var option = $("input:radio[name=option]:checked ").val();
@@ -31,15 +31,15 @@ if ( optionThree == "expressions") {
 if ( optionFour == "Based") {
     opt = opt + 10;
 };
-document.getElementById("output").style.visibility = "visible";
-document.getElementById("correct").innerHTML = "Your Total Marks " + opt + " /50";
+document.getElementById("fifth-p").style.visibility = "visible";
+document.getElementById("correctNumber").innerHTML = "Your Total Marks " + opt + " /50";
 
 
  $(".container").fadeOut();
 
-}*/
+}
 
-function check() {
+/*function check() {
     var questionOne = document.Quiz.questionOne.value;
     var questionTwo = document.Quiz.questionTwo.value;
     var questionThree = document.Quiz.questionThree.value;
@@ -49,28 +49,28 @@ function check() {
 
 
     if (questionOne == "correct") {
-        right = right + 20;
+        right = right + 10;
     };
     if (questionTwo == "correct") {
-        right = right + 20;
+        right = right + 10;
     };
     if (questionThree == "correct") {
-        right = right + 20;
+        right = right + 10;
     };
     if (questionFour == "correct") {
-        right = right + 20;
+        right = right + 10;
     };
     if (questionFive == "correct") {
-        right = right + 20;
+        right = right + 10;
     };
 
 
 
     document.getElementById("fifth-p").style.visibility = "visible";
-    document.getElementById("correctNumber").innerHTML = "HERE IS YOUR SCORE: " + right + "%";
+    document.getElementById("correctNumber").innerHTML = "Your Total Marks: " + right + " /50";
     $(".container").fadeOut();
 
-};
+};*/
 
  
 

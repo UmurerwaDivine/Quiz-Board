@@ -1,3 +1,29 @@
 body{
    background-color: gray;
 }
+
+h1{
+    text-align: center;
+    color: #ffff;
+    
+}
+
+.well{
+    background-color: bisque;
+}
+.panel{
+    background-color: rgb(197, 134, 118);
+    background-image: linear-gradient(rgb(92, 68, 68), rgb(218, 240, 167));
+    background-size: contain; 
+    position: relative;
+}
+#fifth-p{
+    visibility: hidden;
+    background-color: burlywood;
+    height:300px;
+}
+#fifth-p p{
+    text-align: center;
+    transform: translate(0%,190%);
+    font-size: 40px;
+}
