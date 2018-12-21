@@ -35,6 +35,10 @@ JQuery
 ```
 divinekagame@gmail.com
 ```
+### Link to live site on Github
+```
+https://github.com/UmurerwaDivine/Quiz-Board
+```
 
 ### Copyright and License
 ```
