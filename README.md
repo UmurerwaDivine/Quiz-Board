@@ -1,9 +1,11 @@
-# Pro
+# Project name
+
+Quiz Board
 
 ## description
 
 ```
-This quiz board will help you to know about javascript.
+This quiz board will help the user to know about javascript.
 ```
 
 ### Author 
