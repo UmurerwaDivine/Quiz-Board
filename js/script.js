@@ -1,3 +1,6 @@
+function result(){
+    
+}
 var option = $("input:radio[name=option]:").val();
 var optionOne = $("input:radio[name=optionOne]:").val();
 var optionTwo = $("input:radio[name=optionTwo]:").val();
