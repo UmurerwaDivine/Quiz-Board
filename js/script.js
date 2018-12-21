@@ -16,7 +16,7 @@ var opt = 0;
    // }else{
 
    
-if (option === "Method") {
+if (option === "Mefu") {
     opt = opt + 10;
 };
 if (optionOne === "Division") {
