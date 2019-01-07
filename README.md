@@ -14,7 +14,7 @@ Umurerwa Divine
 
 ### BDD
 
-n this quiz board one is encouraged to answer all the questions witout failure:
+In this quiz board one is encouraged to answer all the questions witout failure:
 
 .If you don't answer all the questions right your marks will still be displayed
 .If your give the correct answer to a question you're awarded 10 points
