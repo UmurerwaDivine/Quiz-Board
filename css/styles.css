@@ -5,12 +5,13 @@ body{
 
 
 
-#output{
-    visibility: hidden;
-    height:150px;
-}
-#output p{
+
+
+#output {
     text-align: center;
-    transform: translate(0%,190%);
     font-size: 40px;
+}
+a{
+    color:gray;
+    font-size:20px;
 }

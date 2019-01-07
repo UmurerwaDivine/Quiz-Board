@@ -1,22 +1,15 @@
 
-//function result(){
+
 $(document).ready(function(){
-    $("#board").submit(function(event){
+    $("form#board").submit(function(event){
     
 
-var option =$("input:radio[name=optio]:checked").val();
-var optionOne =$("input:radio[name=optionone]:checked").val();
-var optionTwo =$("input:radio[name=optiontwo]:checked").val();
-var optionThree =$("input:radio[name=optionthree]:checked").val();
-var optionFour =$("input:radio[name=optionfour]:checked").val();
+var option =$("input:radio[name=option]:checked").val();
+var optionOne =$("input:radio[name=optionOne]:checked").val();
+var optionTwo =$("input:radio[name=optionTwo]:checked").val();
+var optionThree =$("input:radio[name=optionThree]:checked").val();
+var optionFour =$("input:radio[name=optionFour]:checked").val();
 var opt = 0;
-
-
-//if (answerOne === undefined || answerTwo === undefined || answerThree === undefined) {
-   // $('#questionsIncomplete').text("Please Complete questions Before Submitting");
-
-  //  }
-   // else{
 
    
 if (option === "Mefu") {
@@ -34,16 +27,14 @@ if ( optionThree === "expressions") {
 if ( optionFour === "Based") {
     opt = opt + 10;
 };
-   // }
-
-
+ 
 event.preventDefault();
 $(".container").fadeOut();
 $("#output").show();
-$("#correct").text("Your Total Marks: " + opt+ "/50");
+$("#correct").text("Your Total Marks: " + opt + "/50");
 });
 });
-//}
+
 
 
  
